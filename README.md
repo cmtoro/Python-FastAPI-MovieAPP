@@ -6,7 +6,7 @@ Python app created with FastAPI and MongoDB to define an API and expose CRUD RES
 ## Config
 Docker MongoDB
 ```bash
-docker run --name some-mongo -d mongo:latest
+docker run -p 27017:27017 --name some-mongo -d mongo:latest
 ```
 No further config needed.
 ## Clone repository
