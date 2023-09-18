@@ -13,6 +13,13 @@ No further config needed.
 ```bash
 git clone https://github.com/cmtoro/Python-FastAPI-MovieAPP.git
 ```
+## Python virtual environments (Mac)
+```bash
+pip install virtualenv
+virtualenv -p python3 my-movie-api
+cd my-movie-api
+source bin/activate
+```
 ## Install Python dependencies
 ```bash
 pip3 install -r requirements.txt
